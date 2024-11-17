@@ -1,0 +1,58 @@
+body{
+    cursor: pointer;
+}
+.cor-item{
+    height: 480px;
+}
+.cor-img{
+    height:100% ;
+    object-fit:cover;
+    filter: brightness(0.6);
+}
+.overview{
+    height: 180px;
+    background-color: lightgray;
+}
+.cd-img{
+    height: 250px; 
+    object-fit:cover; 
+}
+.bton:hover{
+    background-color: white;
+    color:royalblue
+}
+.card{
+    transition: all 0.3s;
+}
+.card:hover{
+    transform:scale(1.15) ;
+}
+.nav-link{
+    position: relative;
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(23, 117, 63);
+}
+.nav-link::after{
+   content:'';
+   height: 2px;
+   width: 100%;
+   background-color: rgb(23, 117, 63);
+   position: absolute;
+   bottom:0px;
+   left:0;
+   opacity: 0;
+   transition: all 0.2s;
+   pointer-events: none;
+}
+.nav-link:hover::after{
+    opacity:1 ;
+}
+.cor-item-des{
+    height:600px;
+}
+.cor-img-des{
+    height:100% ;
+    object-fit:cover;
+}
